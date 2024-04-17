@@ -1,0 +1,16 @@
+<div class="w-full flex mt-12 justify-center">
+  <input
+    type="text"
+    placeholder="Search for a User"
+    #input
+    class="p-3 pr-12 rounded-3xl border-black border-2"
+    required
+  />
+  <button
+    class="bg-black text-white font-medium rounded-2xl p-4 px-6 ml-5"
+    type="submit"
+    (click)="searchAccount(input.value)"
+  >
+    Search
+  </button>
+</div>
